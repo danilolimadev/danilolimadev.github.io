@@ -9,10 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         return response.json();
       })
       .then(data => {
-        document.getElementById("welcome-text").textContent = data.welcome;
-        document.getElementById("about-link").textContent = data.about;
-        document.getElementById("team-link").textContent = data.team;
-        document.getElementById("contact-link").textContent = data.contact;
+        document.getElementsByClassName("heads_up_class").textContent = data.welcome;
       })
       .catch(error => {
         console.error(`Error fetching translation: ${error}`);
