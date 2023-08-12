@@ -352,7 +352,7 @@ template {
   }
 
   .layout_padding-top {
-    padding-top: 90px;
+    padding-top: 30px;
   }
   
 
@@ -600,6 +600,9 @@ template {
     .features-row {
     	  padding-top: 50px;
     }
+    .detail-features {
+      margin-top: 70px;
+    }
     .detail-features h2{
     		font-family: Dosis-bold;
     		font-size: 44px;
@@ -644,7 +647,7 @@ template {
     }
   	/*Download*/
   	.downl-sec {
-  		background-image: url(../image/bckg-download.jpg);
+  		background-image: url(../image/quem_sou_eu/QSE-PT2.png);
   		background-repeat: no-repeat;
   		background-size: cover;
   		background-position: center;
@@ -779,7 +782,7 @@ template {
     }
   	/*Screenshot*/
   	.screenshot {
-    		padding: 160px 0;
+    		padding: 80px 0;
     		background-color: #ecf0f1;
    	}
    	.screen-detail {
@@ -1092,7 +1095,7 @@ template {
     /*Reviwes*/
     .review-sec {
         background-color: #ecf0f1;
-        padding-top: 160px;
+        padding-top: 20px;
     }
     .detail-reviwe h2 {
         font-family: Dosis-bold;
@@ -1450,7 +1453,7 @@ template {
      /*Contact*/
     .contact-bckg {
         background-color: #ecf0f1;
-        padding: 160px 0px;
+        padding: 80px 0px;
     }
     .contact-title h2{
         font-family: Dosis-bold;
@@ -1560,7 +1563,7 @@ template {
     }
     /*Footer*/
     .footer {
-        background-image: url(../image/footer-bckg.jpg);
+        /* background-image: url(../image/footer-bckg.jpg); */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
