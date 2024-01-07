@@ -462,10 +462,10 @@ template {
       z-index:999; 
     }
     .nav-contain nav {
-      padding: 28px 15px;
+      padding: 18px 15px;
     }
     .nav-list .menu {
-      color: #333333;
+      /* color: #333333; */
       font-family: Dosis Regular;
       font-size: 18px;
       line-height: 26px;
