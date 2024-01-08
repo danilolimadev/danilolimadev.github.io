@@ -44,20 +44,37 @@
     width: 100%;
     z-index: 1;
     padding: 15px 0;
+    opacity: 0.9;
+    /* flex-shrink: 0;
+    white-space: nowrap;
+    overflow: hidden; */
 }
 
 .subnav-content a {
     float: left;
     color: white;
     text-decoration: none;
-    padding: 20px 16px;
+    padding: 20px 10px;
+    opacity: 0.5;
+    width: 120px;
 }
 
 .subnav-content a:hover {
-    /* background-color: #eee; */
-    color: black;
+    opacity: 1;
 }
 
 .subnav:hover .subnav-content {
-    display: block;
+    display: flex;
+}
+
+
+
+
+/* Mobile */
+.custom-toggler.navbar-toggler {
+    border-color: transparent;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
