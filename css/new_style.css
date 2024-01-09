@@ -14,6 +14,15 @@
     text-decoration: none;
 }
 
+.navbar button a {
+    font-size: 18px;
+}
+
+.navbar button a:hover {
+    color: #53c5d5;
+    cursor: pointer;
+}
+
 .subnav {
     float: left;
     overflow: hidden;
