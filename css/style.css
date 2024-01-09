@@ -742,10 +742,11 @@ template {
     }
   	/*Why us*/
   	.chose {
-  		padding-top: 100px;
+  		padding-top: 20px;
+  		padding-bottom: 30px;
   	}
   	.chose .iphones-5s {
-  		margin-top: 150px;
+  		margin-top: 50px;
   	}
   	.chose-detail {
   		margin-top: 60px;
