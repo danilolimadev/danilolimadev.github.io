@@ -82,6 +82,8 @@
 
 .list-class-ol li {
     display: block;
+    text-align: justify;
+    padding: 5px 0;
 }
 
 .list-class-ol li:before {

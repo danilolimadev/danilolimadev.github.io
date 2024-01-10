@@ -619,7 +619,7 @@ template {
     	font-family: Dosis Regular;
     	font-size: 22px;
     	line-height: 35px;
-
+      text-align: justify;
     }
     .features-cols {
 		  margin-top: 55px;
@@ -629,6 +629,7 @@ template {
     }
   	.services p {
   		width: 93%;
+      text-align: justify;
   	}
   	.phone-col {
   		margin-top: 90px;
