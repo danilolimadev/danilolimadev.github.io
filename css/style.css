@@ -676,7 +676,7 @@ template {
       margin: auto;
   	}
   	.mobiles-down {
-  		margin-top: 130px;
+  		margin-top: 30px;
         align-content: center;
         justify-content: center;
   	}
@@ -809,7 +809,7 @@ template {
         margin: auto;
     } 
     .owl-seci {
-       margin-top: 80px;
+       margin-top: 30px;
     }
     .owl-seci .owl-theme .owl-dots .owl-dot span {
         background-color: #fff!important;
