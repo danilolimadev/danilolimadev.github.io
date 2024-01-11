@@ -565,7 +565,7 @@ template {
         line-height: 26px;
     }
     .icon-img {
-        text-align: center;        
+        /* text-align: center;         */
     }
     .welcome-colum .icon-img i {
         color: #00c6d7;
@@ -745,9 +745,6 @@ template {
   	.chose {
   		padding-top: 20px;
   		padding-bottom: 30px;
-  	}
-  	.chose .iphones-5s {
-  		margin-top: 50px;
   	}
   	.chose-detail {
   		margin-top: 60px;
