@@ -128,7 +128,7 @@
     font-weight: bold;
 }
 
-.image-title a{
+.image-title a {
     font-size: 20px;
 }
 
@@ -143,6 +143,16 @@
 .col-lg-6 {
     padding-right: 30px;
     padding-left: 30px;
+}
+
+@media (max-width: 992px) {
+    .mt-5 {
+        margin-top: 30px !important;
+    }
+
+    .mb-5 {
+        margin-bottom: 0 !important;
+    }
 }
 
 /* Fim Aplicativos */
