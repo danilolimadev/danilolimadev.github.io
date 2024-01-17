@@ -655,6 +655,15 @@ template {
   		padding: 160px 0px 130px 0px;
   		color: #fff;
   	}
+    .downl-sec-cm {
+  		background-image: url(../image/calendario_menstrual/CM-PT.webp);
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		background-position: center;
+  		padding: 160px 0px 130px 0px;
+  		color: #fff;
+      /* filter: brightness(0.3); */
+  	}
   	.detail-down h2 {
   		font-family: Dosis-bold;
   		font-size: 44px;
