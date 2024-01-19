@@ -648,21 +648,44 @@ template {
     }
   	/*Download*/
   	.downl-sec {
-  		background-image: url(../image/quem_sou_eu/QSE-PT2.png);
   		background-repeat: no-repeat;
   		background-size: cover;
   		background-position: center;
   		padding: 160px 0px 130px 0px;
   		color: #fff;
   	}
+    .downl-sec-qse {
+  		background-image: url(../image/quem_sou_eu/QSE-PT2.png);
+  	}
     .downl-sec-cm {
-  		background-image: url(../image/calendario_menstrual/CM-PT.webp);
-  		background-repeat: no-repeat;
-  		background-size: cover;
-  		background-position: center;
-  		padding: 160px 0px 130px 0px;
-  		color: #fff;
-      /* filter: brightness(0.3); */
+  		background-image: url(../image/calendario_menstrual/CM-PT2.webp);
+  	}
+    .downl-sec-cum {
+  		background-image: url(../image/cante_uma_musica/CUM-PT2.webp);
+  	}
+    .downl-sec-lba {
+  		background-image: url(../image/lembrete_beber_agua/LBA-PT2.webp);
+  	}
+    .downl-sec-lpt {
+  		background-image: url(../image/lembrete_pausa_no_trabalho/MR-PT2.webp);
+  	}
+    .downl-sec-lc {
+  		background-image: url(../image/lista_de_compras/LC-PT2.webp);
+  	}
+    .downl-sec-moj {
+  		background-image: url(../image/mimica_o_jogo/MOJ-PT2.webp);
+  	}
+    .downl-sec-mr {
+  		background-image: url(../image/minhas_receitas/MR-PT2.webp);
+  	}
+    .downl-sec-pp {
+  		background-image: url(../image/planejador_pessoal/PP-PT2.webp);
+  	}
+    .downl-sec-qb {
+  		background-image: url(../image/quiz_brasil/QB-PT2.webp);
+  	}
+    .downl-sec-tl {
+  		background-image: url(../image/tranca_letra/TL-PT2.webp);
   	}
   	.detail-down h2 {
   		font-family: Dosis-bold;
