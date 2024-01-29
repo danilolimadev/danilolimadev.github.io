@@ -1723,13 +1723,7 @@ template {
     border-top: 1px solid #898989;
     padding: 25px 0;
   }
-
-  @media (max-width: 992px) {
-    .social_container {
-      width: 100%;
-    }
-  }
-  
+ 
   .info_section .social-box {
     margin: 0 auto;
     width: 400px;
@@ -1739,6 +1733,15 @@ template {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  @media (max-width: 992px) {
+    .social_container {
+      width: 100%;
+    }
+    .info_section .social-box {
+      width: unset;
+    }
   }
   
   .info_section .social-box img {
