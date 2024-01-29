@@ -40,10 +40,10 @@
     margin: 0;
 }
 
-.navbar a:hover,
+/* .navbar a:hover,
 .subnav:hover .subnavbtn {
-    /* background-color: red; */
-}
+    // background-color: red; 
+} */
 
 .subnav-content {
     display: none;
