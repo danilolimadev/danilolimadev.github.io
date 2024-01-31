@@ -193,8 +193,23 @@
     margin-bottom: 30px;
 }
 
-.contact-detail p{
+.contact-detail p {
     text-align: justify;
+}
+
+@media (max-width: 992px) {
+    .contact-bckg {
+        padding: 20px 0px;
+    }
+    .contact-detail h2 {
+        text-align: center;
+    }
+    .contact-detail>.contact{
+        text-align: center;
+    }
+    .social-networks {
+        text-align: center;
+    }
 }
 
 @media (max-width: 992px) {
