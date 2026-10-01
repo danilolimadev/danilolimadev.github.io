@@ -54,20 +54,71 @@
 }
 
 .body-404 {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 60% auto;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #f6f8fc;
 }
 
-.wrapper {
-  margin-top: 60px;
+.body-404 .error-page {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-svg {
-  width: 100%;
-  height: 100%;
+.body-404 .wrapper {
+    width: 100%;
+    min-height: calc(100vh - 82px);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-404 .wrapper svg {
+    display: block;
+    width: min(100%, 1500px);
+    max-width: 100%;
+    height: auto;
+    max-height: calc(100vh - 100px);
+}
+
+@media (max-width: 900px) {
+    .body-404 .error-page {
+        padding-top: 72px;
+        min-height: auto;
+    }
+
+    .body-404 .wrapper {
+        min-height: calc(100vh - 72px);
+        padding: 15px 10px;
+    }
+
+    .body-404 .wrapper svg {
+        width: 100%;
+        height: auto;
+        max-height: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .body-404 .error-page {
+        padding-top: 68px;
+    }
+
+    .body-404 .wrapper {
+        min-height: calc(100vh - 68px);
+        padding: 5px;
+    }
+
+    .body-404 .wrapper svg {
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media (max-width: 576px) { 

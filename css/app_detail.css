@@ -1,0 +1,580 @@
+/* =========================================================
+   APP DETAIL PAGES
+   Estilo compartilhado das páginas individuais dos apps
+========================================================= */
+
+.app-detail-page {
+	background: #f6f8fc;
+	color: #18263d;
+}
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.app-detail-hero {
+	padding: 130px 24px 80px;
+	background:
+		radial-gradient(circle at 85% 20%, rgba(83, 197, 213, 0.16), transparent 30%),
+		linear-gradient(135deg, #00204b 0%, #073b73 55%, #0a5270 100%);
+	color: #fff;
+	overflow: hidden;
+}
+
+.app-detail-hero-inner {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.app-detail-hero-grid {
+	display: grid;
+	grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+	align-items: center;
+	gap: 60px;
+}
+
+.app-detail-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 18px;
+	padding: 7px 14px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 999px;
+	background: rgba(255, 255, 255, 0.08);
+	color: #8ee7f2;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.app-detail-hero h1 {
+	margin: 0 0 20px;
+	color: #fff;
+	font-size: clamp(38px, 5vw, 64px);
+	line-height: 1.05;
+	font-weight: 700;
+}
+
+.app-detail-hero-description {
+	max-width: 650px;
+	margin: 0;
+	color: rgba(255, 255, 255, 0.86);
+	font-size: 19px;
+	line-height: 1.7;
+}
+
+.app-detail-store-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	margin-top: 30px;
+	padding: 13px 22px;
+	border-radius: 12px;
+	background: #fff;
+	color: #00204b;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-detail-store-link:hover {
+	color: #00204b;
+	text-decoration: none;
+	transform: translateY(-2px);
+	box-shadow: 0 16px 35px rgba(0, 0, 0, 0.25);
+}
+
+.app-detail-store-link i {
+	color: #53c5d5;
+	font-size: 22px;
+}
+
+.app-detail-hero-image {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-detail-hero-image::before {
+	content: "";
+	position: absolute;
+	width: 330px;
+	height: 330px;
+	border-radius: 50%;
+	background: rgba(83, 197, 213, 0.12);
+	filter: blur(2px);
+}
+
+.app-detail-hero-image img {
+	position: relative;
+	z-index: 1;
+	width: min(100%, 380px);
+	max-height: 610px;
+	object-fit: contain;
+	filter: drop-shadow(0 25px 35px rgba(0, 0, 0, 0.28));
+}
+
+/* =========================================================
+   GENERAL SECTIONS
+========================================================= */
+
+.app-detail-section {
+	padding: 90px 24px;
+}
+
+.app-detail-section-inner {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.app-section-heading {
+	max-width: 720px;
+	margin: 0 auto 55px;
+	text-align: center;
+}
+
+.app-section-heading .section-label {
+	display: block;
+	margin-bottom: 10px;
+	color: #53aebb;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.app-section-heading h2 {
+	margin: 0 0 15px;
+	color: #00204b;
+	font-size: clamp(30px, 4vw, 44px);
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.app-section-heading p {
+	margin: 0;
+	color: #65738a;
+	font-size: 17px;
+	line-height: 1.7;
+}
+
+/* =========================================================
+   FEATURES
+========================================================= */
+
+.app-features-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 22px;
+}
+
+.app-feature-card {
+	display: flex;
+	gap: 22px;
+	padding: 30px;
+	border: 1px solid #e5eaf1;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 8px 30px rgba(0, 32, 75, 0.05);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-feature-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 15px 35px rgba(0, 32, 75, 0.09);
+}
+
+.app-feature-icon {
+	flex: 0 0 58px;
+	width: 58px;
+	height: 58px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 16px;
+	background: #e9f9fb;
+	color: #007b91;
+	font-size: 24px;
+}
+
+.app-feature-content {
+	min-width: 0;
+}
+
+.app-feature-content h3 {
+	margin: 0 0 9px;
+	color: #00204b;
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.app-feature-content p {
+	margin: 0;
+	color: #65738a;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+/* =========================================================
+   HOW TO USE
+========================================================= */
+
+.app-how-section {
+	background: #fff;
+}
+
+.app-how-grid {
+	display: grid;
+	grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+	align-items: center;
+	gap: 70px;
+}
+
+.app-how-image {
+	display: flex;
+	justify-content: center;
+}
+
+.app-how-image img {
+	width: min(100%, 420px);
+	max-height: 650px;
+	object-fit: contain;
+	filter: drop-shadow(0 20px 30px rgba(0, 32, 75, 0.14));
+}
+
+.app-how-content .section-label {
+	display: block;
+	margin-bottom: 10px;
+	color: #53aebb;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.app-how-content h2 {
+	margin: 0 0 15px;
+	color: #00204b;
+	font-size: clamp(30px, 4vw, 44px);
+	font-weight: 700;
+	line-height: 1.15;
+}
+
+.app-how-content > p {
+	margin-bottom: 30px;
+	color: #65738a;
+	font-size: 16px;
+	line-height: 1.7;
+}
+
+.app-steps {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	counter-reset: app-step;
+}
+
+.app-steps li {
+	position: relative;
+	display: grid;
+	grid-template-columns: 42px 1fr;
+	gap: 16px;
+	margin-bottom: 22px;
+	counter-increment: app-step;
+}
+
+.app-steps li:last-child {
+	margin-bottom: 0;
+}
+
+.app-steps li::before {
+	content: counter(app-step);
+	width: 42px;
+	height: 42px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #00204b;
+	color: #fff;
+	font-weight: 700;
+	box-shadow: 0 5px 15px rgba(0, 32, 75, 0.15);
+}
+
+.app-steps li span {
+	padding-top: 7px;
+	color: #46556d;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+/* =========================================================
+   DOWNLOAD
+========================================================= */
+
+.app-download-section {
+	padding: 80px 24px;
+	background:
+		radial-gradient(circle at 15% 50%, rgba(83, 197, 213, 0.16), transparent 28%),
+		linear-gradient(135deg, #00204b, #073b73);
+	color: #fff;
+}
+
+.app-download-inner {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.app-download-inner h2 {
+	margin: 0 0 12px;
+	color: #fff;
+	font-size: clamp(30px, 4vw, 44px);
+	font-weight: 700;
+}
+
+.app-download-inner p {
+	margin: 0;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 17px;
+	line-height: 1.6;
+}
+
+.app-google-play {
+	display: inline-flex;
+	align-items: center;
+	gap: 14px;
+	margin-top: 30px;
+	padding: 14px 24px;
+	border-radius: 14px;
+	background: #fff;
+	color: #00204b;
+	text-decoration: none;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.app-google-play:hover {
+	color: #00204b;
+	text-decoration: none;
+	transform: translateY(-3px);
+	box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+.app-google-play object {
+	width: 42px;
+	height: 42px;
+	pointer-events: none;
+}
+
+.app-google-play-text {
+	text-align: left;
+	line-height: 1.1;
+}
+
+.app-google-play-text small {
+	display: block;
+	margin-bottom: 4px;
+	color: #68768b;
+	font-size: 12px;
+}
+
+.app-google-play-text strong {
+	font-size: 18px;
+}
+
+/* =========================================================
+   SCREENSHOTS
+========================================================= */
+
+.app-screenshots-section {
+	background: #f6f8fc;
+}
+
+.app-screenshots-carousel {
+	position: relative;
+	padding: 10px 40px 20px;
+}
+
+.app-screenshot-item {
+	padding: 10px;
+}
+
+.app-screenshot-card {
+	overflow: hidden;
+	border-radius: 22px;
+	background: #fff;
+	box-shadow: 0 10px 30px rgba(0, 32, 75, 0.1);
+}
+
+.app-screenshot-card img {
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: transform 0.3s ease;
+}
+
+.app-screenshot-card:hover img {
+	transform: scale(1.025);
+}
+
+.app-screenshots-carousel .owl-nav button.owl-prev,
+.app-screenshots-carousel .owl-nav button.owl-next {
+	position: absolute;
+	top: 45%;
+	width: 42px;
+	height: 42px;
+	margin: 0;
+	border-radius: 50%;
+	background: #00204b !important;
+	color: #fff !important;
+	font-size: 25px !important;
+	line-height: 1 !important;
+}
+
+.app-screenshots-carousel .owl-nav button.owl-prev {
+	left: 0;
+}
+
+.app-screenshots-carousel .owl-nav button.owl-next {
+	right: 0;
+}
+
+.app-screenshots-carousel .owl-dots {
+	margin-top: 20px;
+}
+
+.app-screenshots-carousel .owl-dot span {
+	background: #c7d0dc !important;
+}
+
+.app-screenshots-carousel .owl-dot.active span {
+	background: #53c5d5 !important;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1000px) {
+	.app-detail-hero {
+		padding-top: 105px;
+	}
+
+	.app-detail-hero-grid,
+	.app-how-grid {
+		grid-template-columns: 1fr;
+		gap: 45px;
+	}
+
+	.app-detail-hero-content {
+		text-align: center;
+	}
+
+	.app-detail-hero-description {
+		margin: 0 auto;
+	}
+
+	.app-detail-hero-image {
+		order: -1;
+	}
+
+	.app-detail-hero-image img {
+		width: min(100%, 300px);
+		max-height: 450px;
+	}
+
+	.app-how-image {
+		order: 2;
+	}
+
+	.app-how-content {
+		order: 1;
+	}
+}
+
+@media (max-width: 700px) {
+	.app-detail-hero {
+		padding: 95px 18px 55px;
+	}
+
+	.app-detail-section {
+		padding: 60px 18px;
+	}
+
+	.app-features-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.app-feature-card {
+		padding: 24px;
+	}
+
+	.app-download-section {
+		padding: 60px 18px;
+	}
+
+	.app-screenshots-carousel {
+		padding-right: 35px;
+		padding-left: 35px;
+	}
+
+	.app-detail-hero-image::before {
+		width: 240px;
+		height: 240px;
+	}
+}
+
+@media (max-width: 480px) {
+	.app-detail-hero h1 {
+		font-size: 38px;
+	}
+
+	.app-detail-hero-description {
+		font-size: 16px;
+	}
+
+	.app-feature-card {
+		display: block;
+	}
+
+	.app-feature-icon {
+		margin-bottom: 18px;
+	}
+
+	.app-screenshot-card {
+		border-radius: 16px;
+	}
+
+	.app-google-play {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+/* =========================================================
+   ACCESSIBILITY / REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+	.app-feature-card,
+	.app-detail-store-link,
+	.app-google-play,
+	.app-screenshot-card img {
+		transition: none;
+	}
+
+	.app-feature-card:hover,
+	.app-detail-store-link:hover,
+	.app-google-play:hover,
+	.app-screenshot-card:hover img {
+		transform: none;
+	}
+}

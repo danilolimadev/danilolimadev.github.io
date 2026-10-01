@@ -1,78 +1,87 @@
 <!doctype html>
-<!-- <html lang="en"> -->
-
+<html lang="pt-BR">
 <head>
-    <!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="dmApps">
-    <!-- Bootstrap CSS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="dmApps - Página não encontrada">
     <link rel="stylesheet" type="text/css" href="/bootstrap/bootstrap.min.css">
-    <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet" type="text/css" href="/css/new_style.css">
     <link rel="stylesheet" type="text/css" href="/css/404.css">
-    <title>Página não encontrada</title>
+    <title>Página não encontrada - dmApps</title>
     <link rel="icon" href="/image/logo.png" type="image/png">
 </head>
-
 <body class="body-404">
-    <!--Navbar Desktop-->
-    <div
-        class="main-container desktop-nav nav-bkg-color hidden-md-down to d-none d-lg-block fixed-top header-container">
-        <div class="inside-container nav-contain">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="/">
-                    <img src="/image/nav-logo.png" alt="" style="height: 50px;">
-                </a>
-                <div class="navbar-nav nav-list ml-auto">
-                    <a class="menu" href="/">Home</a>
-                    <a class="menu" href="/sobre">Sobre</a>
-                    <!-- <a class="menu" href="contato">Todos os Apps</a> -->
-                </div>
-                <div class="subnav">
-                    <!-- <button class="subnavbtn">Aplicativos</i></button> -->
-                    <button class="subnavbtn"><a class="" href="/aplicativos">Aplicativos</a></i></button>
-                    <div class="subnav-content">
+
+    <!-- Navbar Desktop -->
+    <header class="apps-navbar">
+        <div class="apps-navbar-inner">
+            <a class="apps-logo" href="/" aria-label="dmApps - Início">
+                <img src="/image/nav-logo.png" alt="dmApps">
+            </a>
+
+            <nav class="apps-nav" aria-label="Navegação principal">
+                <a class="apps-nav-link" href="/">Home</a>
+                <a class="apps-nav-link" href="/sobre">Sobre</a>
+
+                <div class="apps-nav-dropdown">
+                    <a class="apps-nav-link apps-nav-link-active" href="/aplicativos">
+                        Aplicativos
+                    </a>
+
+                    <div class="apps-dropdown-menu">
                         <a href="/apps/calendario_menstrual">Calendário Menstrual</a>
-                        <!-- <a href="cante_uma_musica">Cante uma Música</a> -->
+                        <a href="/apps/cante_uma_musica">Cante uma Música</a>
                         <a href="/apps/lembrete_beber_agua">Lembrete: Beber Água</a>
+                        <a href="/apps/lembrete_pausa_no_trabalho">Lembrete: Pausa no Trabalho</a>
                         <a href="/apps/lista_de_compras">Lista de Compras</a>
+                        <a href="/apps/loky">Loky</a>
                         <a href="/apps/minhas_receitas">Minhas Receitas</a>
                         <a href="/apps/mimica_o_jogo">Mímica: O Jogo</a>
                         <a href="/apps/palavra_chave">Palavra-Chave</a>
                         <a href="/apps/planejador_pessoal">Planejador Pessoal</a>
                         <a href="/apps/quem_sou_eu">Quem Sou Eu?</a>
                         <a href="/apps/quiz_brasil">Quiz Brasil</a>
-                        <!-- <a href="tranca_letra">Tranca Letra</a> -->
-                        <a href="/aplicativos">Todos os Apps</a>
+                        <a href="/apps/sortium">Sortium</a>
+                        <a href="/apps/tale_journey">Tale Journey</a>
+                        <a href="/apps/tranca_letra">Tranca Letra</a>
+                        <a class="apps-dropdown-all" href="/aplicativos">Todos os Apps</a>
                     </div>
                 </div>
             </nav>
         </div>
-    </div>
-    <!--Navbar Mobile-->
-    <div class="main-container mobile-nav nav-bkg-color hidden-lg-up to d-lg-none header-container">
-        <div class="inside-container nav-contain">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <img src="/image/nav-logo.png" class alt="" style="height: 50px;">
-                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav-list ml-auto">
-                        <a class="menu" href="/">Home</a>
-                        <a class="menu" href="/sobre">Sobre</a>
-                        <a class="menu" href="/aplicativos">Aplicativos</a>
-                    </div>
-                </div>
-            </nav>
+    </header>
+
+    <!-- Navbar Mobile -->
+    <header class="apps-mobile-navbar">
+        <div class="apps-mobile-navbar-inner">
+            <a class="apps-logo" href="/" aria-label="dmApps - Início">
+                <img src="/image/nav-logo.png" alt="dmApps">
+            </a>
+
+            <button
+                id="appsMobileToggle"
+                class="apps-mobile-toggle"
+                type="button"
+                aria-label="Abrir menu"
+                aria-controls="appsMobileMenu"
+                aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </div>
-    <!--Features-->
-    <div class="wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+        <nav id="appsMobileMenu" class="apps-mobile-menu" aria-label="Navegação mobile">
+            <a href="/">Home</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/aplicativos">Aplicativos</a>
+        </nav>
+    </header>
+
+    <!-- Página 404 -->
+    <main class="error-page">
+        <div class="wrapper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
             <title>404</title>
             <g id="Layer_12 yellow-back-fig" data-name="Layer 12">
                 <path class="cls-1"
@@ -271,61 +280,63 @@
                     d="M1021.29,654l-17.73,6.15,1.72,5.59-31.41,82.36c-19.35,32.53-66.3,36.72-75.56,16.68l-7.09-21.5L879,747.1l3.28,10.09-94.65,33.95c-11.49,2.29-11.85,15.79-2.61,17.84,0,0,39.11,3.66,103,9.5a92.75,92.75,0,0,0,40.89-5.29c44.32-16.56,57.73-50.67,57.73-50.67l26.82-67.26a1.37,1.37,0,0,1,2.53,0l1.42,3.33,17.75-7.62Z" />
             </g>
         </svg>
-    </div>
-    <!-- info section -->
+        <!-- Info section -->
     <section class="info_section layout_padding-top">
         <div class="info_logo-box">
-            <h2>
-                dmApps
-            </h2>
+            <h2>dmApps</h2>
         </div>
+
         <div class="container layout_padding2">
             <div class="row" style="justify-content: center; padding-top: 16px;">
                 <div class="col-md-3">
-                    <h5>
-                        Sobre a Empresa
-                    </h5>
+                    <h5>Sobre a Empresa</h5>
                     <p style="text-align: justify;">
-                        A dmApps é uma empresa de desenvolvimento de aplicativos diversos, nosso portifólio conta com
+                        A dmApps é uma empresa de desenvolvimento de aplicativos diversos, nosso portfólio conta com
                         apps utilitários e jogos variados.
                     </p>
                 </div>
+
                 <div class="col-md-3">
-                    <h5>
-                        Contato
-                    </h5>
-                    <p style="text-align: justify;">Em caso de dúvida ou necessidade de suporte, entre em contato pelo
-                        email:<i class="fas fa-envelope" style="margin-left: 15px;"></i> <a
-                            href="mailto:suportedmapps@gmail.com">suportedmapps@gmail.com</a></p>
+                    <h5>Contato</h5>
+                    <p style="text-align: justify;">
+                        Em caso de dúvida ou necessidade de suporte, entre em contato pelo email:
+                        <i class="fas fa-envelope" style="margin-left: 15px;"></i>
+                        <a href="mailto:suportedmapps@gmail.com">suportedmapps@gmail.com</a>
+                    </p>
                 </div>
             </div>
         </div>
+
         <div class="container">
             <div class="social_container">
                 <div class="social-box">
-                    <a href="https://www.facebook.com/profile.php?id=100088922328995&mibextid=ZbWKwL" target="_blank">
-                        <img src="/image/fb.png" alt="">
+                    <a
+                        href="https://www.facebook.com/profile.php?id=100088922328995&mibextid=ZbWKwL"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="/image/fb.png" alt="Facebook">
                     </a>
 
-                    <a href="https://instagram.com/dmappsoficial?igshid=YmMyMTA2M2Y=" target="_blank">
-                        <img src="/image/instagram.png" alt="">
+                    <a
+                        href="https://instagram.com/dmappsoficial?igshid=YmMyMTA2M2Y="
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="/image/instagram.png" alt="Instagram">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- end info section -->
-    <!-- footer section -->
-    <section class="container-fluid footer_section">
+    <!-- Footer -->
+    <footer class="container-fluid footer_section">
         <p>
-            Copyright &copy; 2024 - dmApps - Todos os direitos reservados.
+            Copyright &copy; 2026 - dmApps - Todos os direitos reservados.
         </p>
-    </section>
-    <!-- footer section -->
-    <script src="/js/script.js" defer></script>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/bootstrap/bootstrap.min.js"></script>
-
+    <script src="/js/script.js?v=3"></script>
 </body>
+</html>
