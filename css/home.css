@@ -405,7 +405,7 @@
 	position: relative;
 	overflow: hidden;
 	background: #eef3f7;
-	aspect-ratio: 1 / 1;
+	aspect-ratio: 1024 / 500;
 }
 
 .apps-home-app-image img {
@@ -413,6 +413,7 @@
 	height: 100%;
 	display: block;
 	object-fit: cover;
+	object-position: center center;
 	transition: transform 0.35s ease;
 }
 
