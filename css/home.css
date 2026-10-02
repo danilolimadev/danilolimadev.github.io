@@ -630,6 +630,10 @@
 }
 
 @media (max-width: 900px) {
+	
+	.apps-home-hero {
+		padding-top: 20px;
+	}
 
 	.apps-home-hero-inner {
 		grid-template-columns: 1fr;
