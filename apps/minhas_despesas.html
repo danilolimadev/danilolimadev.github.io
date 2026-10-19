@@ -1,0 +1,393 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Minhas Despesas - organize seus gastos, acompanhe pagamentos, gerencie recebimentos e objetivos financeiros em um só lugar.">
+	<meta name="theme-color" content="#00204b">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Minhas Despesas | dmApps">
+	<meta property="og:description" content="Organize seus gastos, acompanhe pagamentos, gerencie recebimentos e objetivos financeiros em um só lugar.">
+	<meta property="og:image" content="https://dmapps.com.br/image/minhas_despesas/MD-PT.webp">
+	<meta property="og:url" content="https://dmapps.com.br/apps/minhas_despesas">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="dmApps">
+
+	<title>Minhas Despesas | dmApps</title>
+
+	<link rel="icon" href="../../image/favicon.png" type="image/png">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="../../bootstrap/bootstrap.min.css">
+
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="../../font/dosis-regular/font.css">
+	<link rel="stylesheet" type="text/css" href="../../font/dosis-bold/font.css">
+
+	<!-- Site CSS -->
+	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/new_style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/app_detail.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+		crossorigin="anonymous">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+</head>
+
+<body class="app-detail-page">
+
+	<!-- DESKTOP NAVBAR -->
+	<header class="apps-navbar">
+		<div class="apps-navbar-inner">
+			<a class="apps-logo" href="/" aria-label="dmApps - Início">
+				<img src="../../image/nav-logo.png" alt="dmApps">
+			</a>
+
+			<nav class="apps-nav" aria-label="Navegação principal">
+				<a class="apps-nav-link" href="/">Home</a>
+				<a class="apps-nav-link" href="../../sobre">Sobre</a>
+
+				<div class="apps-nav-dropdown">
+					<a class="apps-nav-link apps-nav-link-active" href="../../aplicativos">Aplicativos</a>
+
+					<div class="apps-dropdown-menu">
+						<a href="/apps/calendario_menstrual">Calendário Menstrual</a>
+						<a href="/apps/cante_uma_musica">Cante uma Música</a>
+						<a href="/apps/lembrete_beber_agua">Lembrete: Beber Água</a>
+						<a href="/apps/lembrete_pausa_no_trabalho">Lembrete: Pausa no Trabalho</a>
+						<a href="/apps/lista_de_compras">Lista de Compras</a>
+						<a href="/apps/loky">Loky</a>
+						<a href="/apps/minhas_receitas">Minhas Receitas</a>
+						<a href="/apps/mimica_o_jogo">Mímica: O Jogo</a>
+						<a href="/apps/palavra_chave">Palavra-Chave</a>
+						<a href="/apps/planejador_pessoal">Planejador Pessoal</a>
+						<a href="/apps/quem_sou_eu">Quem Sou Eu?</a>
+						<a href="/apps/quiz_brasil">Quiz Brasil</a>
+						<a href="/apps/sortium">Sortium</a>
+						<a href="/apps/tale_journey">Tale Journey</a>
+						<a href="/apps/tranca_letra">Tranca Letra</a>
+						<a href="/apps/minhas_despesas">Minhas Despesas</a>
+						<a class="apps-dropdown-all" href="../../aplicativos">Todos os Apps</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<!-- MOBILE NAVBAR -->
+	<header class="apps-mobile-navbar">
+		<div class="apps-mobile-navbar-inner">
+			<a class="apps-logo" href="/" aria-label="dmApps - Início">
+				<img src="../../image/nav-logo.png" alt="dmApps">
+			</a>
+
+			<button id="appsMobileToggle" class="apps-mobile-toggle" type="button"
+				aria-label="Abrir menu" aria-controls="appsMobileMenu" aria-expanded="false">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+		</div>
+
+		<nav id="appsMobileMenu" class="apps-mobile-menu" aria-label="Navegação mobile">
+			<a href="/">Home</a>
+			<a href="../../sobre">Sobre</a>
+			<a href="../../aplicativos">Aplicativos</a>
+		</nav>
+	</header>
+
+	<!-- HERO -->
+	<section class="app-detail-hero">
+		<div class="app-detail-hero-inner">
+			<div class="app-detail-hero-grid">
+				<div class="app-detail-hero-content">
+					<span class="app-detail-label">
+						<i class="fas fa-wallet"></i>
+						Finanças
+					</span>
+
+					<h1>Minhas Despesas</h1>
+
+					<p class="app-detail-hero-description">
+						Organize sua vida financeira em um só lugar! Registre despesas e recebimentos,
+						acompanhe vencimentos, visualize seu resumo financeiro e monitore seus objetivos
+						para ter mais controle sobre seu dinheiro.
+					</p>
+
+					<a class="app-detail-store-link" href="https://play.google.com/store/apps/details?id=br.com.dmapps.minhas_despesas"
+						target="_blank" rel="noopener noreferrer">
+						<i class="fab fa-google-play"></i>
+						<span>Disponível no Google Play</span>
+					</a>
+				</div>
+
+				<div class="app-detail-hero-image">
+					<img src="../../image/minhas_despesas/top.webp" alt="Minhas Despesas">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FEATURES -->
+	<section class="app-detail-section">
+		<div class="app-detail-section-inner">
+			<div class="app-section-heading">
+				<span class="section-label">RECURSOS</span>
+				<h2>Tenha mais controle sobre suas finanças</h2>
+				<p>
+					Reúna suas informações financeiras em um só lugar e acompanhe suas despesas,
+					seus recebimentos e seus objetivos com mais praticidade.
+				</p>
+			</div>
+
+			<div class="app-features-grid">
+				<div class="app-feature-card">
+					<div class="app-feature-icon">
+						<i class="fas fa-file-invoice-dollar"></i>
+					</div>
+					<div class="app-feature-content">
+						<h3>Organize suas despesas</h3>
+						<p>
+							Cadastre despesas avulsas, mensais e anuais, acompanhe valores e vencimentos
+							e identifique pagamentos pendentes e despesas recentes.
+						</p>
+					</div>
+				</div>
+
+				<div class="app-feature-card">
+					<div class="app-feature-icon">
+						<i class="fas fa-hand-holding-usd"></i>
+					</div>
+					<div class="app-feature-content">
+						<h3>Controle seus recebimentos</h3>
+						<p>
+							Registre recebimentos recorrentes ou avulsos e acompanhe as entradas
+							para entender melhor o dinheiro que entra e sai.
+						</p>
+					</div>
+				</div>
+
+				<div class="app-feature-card">
+					<div class="app-feature-icon">
+						<i class="fas fa-calendar-alt"></i>
+					</div>
+					<div class="app-feature-content">
+						<h3>Acompanhe seus compromissos</h3>
+						<p>
+							Consulte pagamentos pelo calendário, acompanhe vencimentos e utilize
+							as notificações para lembrar de seus compromissos financeiros.
+						</p>
+					</div>
+				</div>
+
+				<div class="app-feature-card">
+					<div class="app-feature-icon">
+						<i class="fas fa-chart-line"></i>
+					</div>
+					<div class="app-feature-content">
+						<h3>Resumo e objetivos financeiros</h3>
+						<p>
+							Confira totais recebidos e pagos no mês, despesas previstas e saldo
+							disponível estimado. Cadastre objetivos e acompanhe seu progresso.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- HOW TO USE -->
+	<section class="app-detail-section app-how-section">
+		<div class="app-detail-section-inner">
+			<div class="app-how-grid">
+				<div class="app-how-image">
+					<img src="../../image/minhas_despesas/mid.webp"
+						alt="Como utilizar o Minhas Despesas">
+				</div>
+
+				<div class="app-how-content">
+					<span class="section-label">PRIMEIROS PASSOS</span>
+					<h2>Como utilizar?</h2>
+
+					<p>
+						Cadastre suas despesas e seus recebimentos para reunir as principais
+						informações da sua vida financeira. Consulte seu resumo mensal e defina
+						objetivos para organizar melhor seu dinheiro.
+					</p>
+
+					<ol class="app-steps">
+						<li>
+							<span>
+								Cadastre suas despesas, informando valores, vencimentos e recorrências.
+							</span>
+						</li>
+						<li>
+							<span>
+								Adicione seus recebimentos, sejam eles recorrentes ou avulsos.
+							</span>
+						</li>
+						<li>
+							<span>
+								Acompanhe seu resumo financeiro, os pagamentos e o saldo estimado.
+							</span>
+						</li>
+						<li>
+							<span>
+								Defina objetivos financeiros e acompanhe seu progresso ao longo do tempo.
+							</span>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- DOWNLOAD -->
+	<section class="app-download-section">
+		<div class="app-download-inner">
+			<h2>Baixe agora Minhas Despesas</h2>
+			<p>
+				Tenha suas despesas, seus recebimentos e seus objetivos financeiros organizados
+				em um só lugar. Acompanhe sua vida financeira com mais praticidade!
+			</p>
+
+			<a class="app-google-play" href="LINK_GOOGLE_PLAY"
+				target="_blank" rel="noopener noreferrer">
+				<object data="../../image/play-store.svg" type="image/svg+xml" aria-hidden="true"></object>
+				<span class="app-google-play-text">
+					<small>Disponível no</small>
+					<strong>Google Play</strong>
+				</span>
+			</a>
+		</div>
+	</section>
+
+	<!-- SCREENSHOTS -->
+	<section class="app-detail-section app-screenshots-section">
+		<div class="app-detail-section-inner">
+			<div class="app-section-heading">
+				<span class="section-label">POR DENTRO DO APP</span>
+				<h2>Screenshots</h2>
+				<p>Explore algumas das telas do Minhas Despesas.</p>
+			</div>
+
+			<div class="app-screenshots-carousel">
+				<div class="owl-carousel owl-theme">
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/1.webp"
+								alt="Minhas Despesas - tela 1" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/2.webp"
+								alt="Minhas Despesas - tela 2" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/3.webp"
+								alt="Minhas Despesas - tela 3" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/4.webp"
+								alt="Minhas Despesas - tela 4" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/5.webp"
+								alt="Minhas Despesas - tela 5" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/6.webp"
+								alt="Minhas Despesas - tela 6" loading="lazy">
+						</div>
+					</div>
+
+					<div class="app-screenshot-item">
+						<div class="app-screenshot-card">
+							<img src="../../image/minhas_despesas/7.webp"
+								alt="Minhas Despesas - tela 7" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<section class="info_section layout_padding-top">
+		<div class="info_logo-box">
+			<h2>dmApps</h2>
+		</div>
+
+		<div class="container layout_padding2">
+			<div class="row" style="justify-content: center; padding-top: 16px;">
+				<div class="col-md-3">
+					<h5>Sobre a Empresa</h5>
+					<p style="text-align: justify;">
+						A dmApps é uma empresa de desenvolvimento de aplicativos diversos,
+						nosso portfólio conta com apps utilitários e jogos variados.
+					</p>
+				</div>
+
+				<div class="col-md-3">
+					<h5>Contato</h5>
+					<p style="text-align: justify;">
+						Em caso de dúvida ou necessidade de suporte, entre em contato pelo email:
+						<i class="fas fa-envelope" style="margin-left: 15px;"></i>
+						<a href="mailto:suportedmapps@gmail.com">suportedmapps@gmail.com</a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="social_container">
+				<div class="social-box">
+					<a href="https://www.facebook.com/profile.php?id=100088922328995&amp;mibextid=ZbWKwL"
+						target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+						<img src="../../image/fb.png" alt="Facebook">
+					</a>
+
+					<a href="https://instagram.com/dmappsoficial?igshid=YmMyMTA2M2Y="
+						target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+						<img src="../../image/instagram.png" alt="Instagram">
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid footer_section">
+		<p>Copyright &copy; 2026 - dmApps - Todos os direitos reservados.</p>
+	</footer>
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+	<script src="../../bootstrap/bootstrap.min.js"></script>
+	<script src="../../js/script.js?v=3"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<script src="../../js/app_detail.js"></script>
+
+</body>
+</html>
